@@ -1,0 +1,20 @@
+{
+  "offset": 0,
+  "limit": 100,
+  "location": [8.561339,
+            76.911983],
+  "proximity_in_km": 2,
+  "search_by": {
+    "text": "Test",
+    "pincode": "411014",
+    "area": null,
+    "name": null,
+    "country": null,
+    "state": null,
+    "city": "pune",
+    "charger_point_type": null,
+    "power_capacity": null,
+    "connector_status": "AVAILABLE",
+    "avg_rating": null
+  }
+}

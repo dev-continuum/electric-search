@@ -1,0 +1,123 @@
+{
+  "took" : 15,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 2,
+    "successful" : 2,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 2,
+      "relation" : "eq"
+    },
+    "max_score" : 1.0296195,
+    "hits" : [
+      {
+        "_index" : "charging_stations",
+        "_type" : "_doc",
+        "_id" : "PupYB4MBZrhZq16vNFmF",
+        "_score" : 1.0296195,
+        "_source" : {
+          "station_id" : "6",
+          "vendor_id" : "chargemod",
+          "address_line" : "Bangalore, Nagondanahalli",
+          "available_chargers" : [
+            {
+              "charger_point_type" : "AC",
+              "connectors" : [
+                {
+                  "connector_point_id" : 1,
+                  "relay_number" : 111,
+                  "status" : 1,
+                  "tariff" : 125
+                }
+              ],
+              "id" : 1,
+              "power_capacity" : "240VAC, 15A"
+            }
+          ],
+          "country" : "india",
+          "distance_unit" : null,
+          "is_ocpp" : false,
+          "geo_address" : [
+            12.997125078426626,
+            77.76815593210857
+          ],
+          "name" : "Hindustan Petroleum Corporation Limited",
+          "postal_code" : "560066",
+          "qr_code" : "CM-S00115-4RXJJRGTXU",
+          "rating" : {
+            "1" : 0,
+            "2" : 0,
+            "3" : 0,
+            "4" : 0,
+            "5" : 0,
+            "avg_rating" : 0
+          },
+          "state" : "Karnataka",
+          "station_status" : "not_connected",
+          "station_time" : {
+            "end_time" : "11:59 PM",
+            "start_time" : "12:00 AM"
+          },
+          "total_connectors_available" : 0,
+          "town" : "Bangalore"
+        }
+      },
+      {
+        "_index" : "charging_stations",
+        "_type" : "_doc",
+        "_id" : "P-pYB4MBZrhZq16vNFmF",
+        "_score" : 1.0296195,
+        "_source" : {
+          "station_id" : "7",
+          "vendor_id" : "chargemod",
+          "address_line" : "Bangalore, Hagadur Main road",
+          "available_chargers" : [
+            {
+              "charger_point_type" : "AC",
+              "connectors" : [
+                {
+                  "connector_point_id" : 1,
+                  "relay_number" : 111,
+                  "status" : 1,
+                  "tariff" : 125
+                }
+              ],
+              "id" : 1,
+              "power_capacity" : "240VAC, 15A"
+            }
+          ],
+          "country" : "india",
+          "distance_unit" : null,
+          "is_ocpp" : false,
+          "geo_address" : [
+            12.965042362727385,
+            77.75298267571591
+          ],
+          "name" : "Indian Oil Petrol Station (PKV FILLING STATION)",
+          "postal_code" : "560066",
+          "qr_code" : "CM-S00115-4RXJJRGTXU",
+          "rating" : {
+            "1" : 0,
+            "2" : 0,
+            "3" : 0,
+            "4" : 0,
+            "5" : 0,
+            "avg_rating" : 0
+          },
+          "state" : "Karnataka",
+          "station_status" : "not_connected",
+          "station_time" : {
+            "end_time" : "11:59 PM",
+            "start_time" : "12:00 AM"
+          },
+          "total_connectors_available" : 0,
+          "town" : "Bangalore"
+        }
+      }
+    ]
+  }
+}
